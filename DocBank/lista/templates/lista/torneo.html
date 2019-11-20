@@ -1,0 +1,71 @@
+{% extends 'lista/base.html' %}
+
+{% block content %}
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 25%;
+
+}
+
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+
+
+<table align="center">
+<h2>Torneos</h2>
+  <tr>
+    <th>Nombre del Torneo</th>  
+    <th># participantes</th>
+    <th>BP ganados</th>
+    <th>Fecha del torneo</th>
+  </tr>
+  <tr>
+    <td>Torneo Poke</td>  
+    <td>17</td>
+    <td>345BP</td>
+    <td>2/3/19</td>
+  </tr> 
+  <tr>
+    <td>Torneo Poke</td>  
+    <td>8</td>
+    <td>335BP</td>
+    <td>5/6/19</td>
+  </tr>
+    <tr>
+    <td>Torneo Poke</td>  
+    <td>12</td>
+    <td>325BP</td>
+    <td>10/7/19</td>
+  </tr>
+    <tr>
+    <td>Torneo Poke</td>  
+    <td>12</td>
+    <td>325BP</td>
+    <td>12/7/19</td>    
+  </tr>
+    <tr>
+    <td>Torneo Poke</td>  
+    <td>16</td>
+    <td>375BP</td>
+    <td>12/9/19</td>    
+  </tr>
+
+</table>
+{% endblock %}

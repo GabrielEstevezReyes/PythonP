@@ -1,0 +1,97 @@
+{% extends 'lista/base.html' %}
+
+{% block content %}
+
+
+<h2> Nombre: Gabriel Axel Estevez Reyes </h2> 
+<h2> Puntos actuales: 345 BP </h2>
+<br/>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+}
+
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+
+<table style="width:25%">
+<h2>Compras</h2>
+  <tr>
+    <th>Productos</th>  
+    <th>BattlePoints</th>
+  </tr>
+  <tr>
+    <td>Dark Magician</td>  
+    <td>450BP</td>
+  </tr> 
+  <tr>
+    <td>Deckbox</td>     
+    <td> 523BP </td>
+  </tr>
+  <tr>
+    <td>Micas Ultrapro </td>   
+    <td>123BP</td>
+  </tr>
+  <tr>
+    <td>Baby Dragon </td>   
+    <td>60BP</td>
+  </tr>
+  <tr>
+    <td>Total </td>   
+    <td>11,56BP</td>
+  </tr>
+
+</table>
+
+<br/>
+<br/>
+<br/>
+<br/>
+
+<table style="width:25%">
+<table align="right">
+
+<h2>Torneos</h2>
+  <tr>
+    <th>Productos</th>  
+    <th>BattlePoints</th>
+  </tr>
+  <tr>
+    <td>Torneo de Smash</td>  
+    <td>250BP</td>
+  </tr> 
+  <tr>
+    <td>Torneo de Poke</td>     
+    <td> 321BP </td>
+  </tr>
+  <tr>
+    <td>Torneo de Poke</td>   
+    <td>423BP</td>
+  </tr>
+  <tr>
+    <td>Torneo de Smash</td>   
+    <td>601BP</td>
+  </tr>
+  <tr>
+    <td>Total</td>   
+    <td>1595BP</td>
+  </tr>
+</table>
+
+{% endblock %}
